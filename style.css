@@ -1,0 +1,36 @@
+html {
+    font-family: 'Lucida Sans', sans-serif;
+    box-sizing: border-box;  
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
